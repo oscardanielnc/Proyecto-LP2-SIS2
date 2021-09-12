@@ -7,7 +7,7 @@
 package model;
 
 /**
- * @author NAVARRO CIEZA, OSCAR DANIEL - 20186008
+ * @author RENZO ERNESTO RICHLE GIANOTTI
  * 
  */
 public class Usuario {
