@@ -17,7 +17,10 @@ public class Post {
     private int likes;
     private int prioridad;
     
-    private ArrayList<String> Post;
+   
+    
+    
+    private ArrayList<Post> Posts;
     //unir con Usuario
     private Usuario usuario;
     //unir con Facultad
@@ -80,16 +83,32 @@ public class Post {
     }
 
     /**
-     * @return the Post
+     * @return the Posts
      */
-    public ArrayList<String> getPost() {
-        return Post;
+    public ArrayList<Post> getPosts() {
+        return Posts;
     }
 
     /**
-     * @param Post the Post to set
+     * @param Posts the Posts to set
      */
-    public void setPost(ArrayList<String> Post) {
-        this.Post = Post;
+    public void setPosts(ArrayList<Post> Posts) {
+        this.Posts = Posts;
     }
+
+    /**
+     * @return the usuario
+     */
+    public Usuario getUsuario() {
+        return usuario;
+    }
+
+    /**
+     * @param usuario the usuario to set
+     */
+    public void setUsuario(Usuario usuario) {
+        this.usuario = usuario;
+    }
+
+    
 }
