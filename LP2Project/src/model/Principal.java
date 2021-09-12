@@ -11,7 +11,7 @@ package model;
  */
 public class Principal {
     public static void main(String[] args){
-        Sytem.out.println("Proyecto de LP2\n");
+        System.out.println("Proyecto de LP2\n");
     }
     
 }
