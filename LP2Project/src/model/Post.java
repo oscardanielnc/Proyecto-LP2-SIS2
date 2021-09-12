@@ -18,7 +18,11 @@ public class Post {
     private int prioridad;
     
     private ArrayList<String> Post;
-
+    //unir con Usuario
+    private Usuario usuario;
+    //unir con Facultad
+    //unir con Curso
+    //private Curso curso; 
     /**
      * @return the idPost
      */

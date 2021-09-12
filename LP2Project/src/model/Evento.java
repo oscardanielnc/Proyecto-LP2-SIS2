@@ -14,10 +14,7 @@ import java.util.Date;
 public class Evento extends Post{
     private int idEvento;
     private Date fecha;
-    //unir con Usuario
-    //unir con Facultad
-    //unir con Curso
-    private Usuario usuario; 
+    
     /**
      * @return the idEvento
      */
