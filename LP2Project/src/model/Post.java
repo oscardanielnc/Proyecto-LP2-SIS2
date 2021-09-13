@@ -16,16 +16,20 @@ public class Post {
     private String comentario;
     private int likes;
     private int prioridad;
-    
-   
-    
-    
     private ArrayList<Post> Posts;
+       
     //unir con Usuario
     private Usuario usuario;
     //unir con Facultad
+    private Facultad facultad;
     //unir con Curso
-    //private Curso curso; 
+    private Curso curso; 
+    
+    
+    public Post(){
+        Posts = new ArrayList<>();
+    }    
+    
     /**
      * @return the idPost
      */

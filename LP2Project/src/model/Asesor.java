@@ -21,5 +21,47 @@ public class Asesor {
 		this.idAsesor = idAsesor;
 		this.calificacion = calificacion;
 	}
+
+    /**
+     * @return the idAsesor
+     */
+    public int getIdAsesor() {
+        return idAsesor;
+    }
+
+    /**
+     * @param idAsesor the idAsesor to set
+     */
+    public void setIdAsesor(int idAsesor) {
+        this.idAsesor = idAsesor;
+    }
+
+    /**
+     * @return the calificacion
+     */
+    public float getCalificacion() {
+        return calificacion;
+    }
+
+    /**
+     * @param calificacion the calificacion to set
+     */
+    public void setCalificacion(float calificacion) {
+        this.calificacion = calificacion;
+    }
+
+    /**
+     * @return the cursos
+     */
+    public ArrayList<Curso> getCursos() {
+        return cursos;
+    }
+
+    /**
+     * @param cursos the cursos to set
+     */
+    public void setCursos(ArrayList<Curso> cursos) {
+        this.cursos = cursos;
+    }
 	
 }
